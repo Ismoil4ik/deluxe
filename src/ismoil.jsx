@@ -31,7 +31,7 @@ const Ismoil = () => {
             <section className="about max-[1120px]:px-[20px] px-[180px] pt-[150px] pb-[80px]">
                 <div className='flex max-[800px]:flex-col max-[800px]:gap-y-[24px] justify-between items-center'>
                     <h2 className="w-[200px] max-[800px]:text-center text-[25px] font-bold">О компании <span className='text-[#E1AF93] font-[500]'>RMC DE LUXE</span></h2>
-                    <p className='w-[450px] max-[800px]:text-center text-[15px]'>
+                    <p className='w-[450px] max-[490px]:w-[90%] max-[800px]:text-center text-[15px]'>
                         RMC De Luxe — это риэлторское агентство в Ташкенте, специализирующееся на оценке, аренде и продаже недвижимости.
                         Компания нацелена на предоставление высококачественных и комплексных услуг в сфере недвижимости для физических лиц и корпоративных клиентов.
                     </p>
@@ -98,7 +98,7 @@ const Ismoil = () => {
                 </div>
             </div>
             <div className="flex mt-[150px] max-[1130px]:flex-col max-[1130px]:items-center max-[1130px]:w-[70%] max-[520px]:w-[328px] max-[700px]:w-[94%] max-[700px]:px-[20px] max-[1130px]:h-full pb-[30px] self-center w-[1080px] h-[550px] bg-[#EDF3F5] justify-between items-start">
-                <div className="left flex flex-col font-[Jost] justify-center max-[520px]:items-center items-start py-[45px] pl-[45px] max-[520px]:pl-[0] text-[#333333] text-[40px] font-[500] w-[500px]">
+                <div className="left flex flex-col font-[Jost] justify-center max-[520px]:w-[94%] max-[520px]:items-center items-start py-[45px] pl-[45px] max-[520px]:pl-[0] text-[#333333] text-[40px] font-[500] w-[500px]">
                     <h2 className='max-[520px]:text-[30px] max-[520px]:text-center max-[520px]:w-[300px]'>Остались вопросы? Свяжитесь с нами</h2>
                     <div className="inputs gap-y-[22.5px] mt-[37.5px] flex flex-col justify-center items-start">
                         <input className="w-[407px] max-[520px]:w-[300px] self-center outline-none h-[37.5px] border-b border-[#D6D6D6] placeholder:text-[#707070] placeholder:text-[18px] text-black text-[18px] placeholder:font-[400]" type="number" placeholder="Номер телефона *" />
